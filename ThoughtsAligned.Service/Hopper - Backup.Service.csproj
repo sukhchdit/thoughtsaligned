@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThoughtsAlignedThoughtsAligned.IService\ThoughtsAlignedThoughtsAligned.IService.csproj" />
+    <ProjectReference Include="..\ThoughtsAlignedThoughtsAligned.Models\ThoughtsAlignedThoughtsAligned.Models.csproj" />
+    <ProjectReference Include="..\ThoughtsAlignedThoughtsAligned.Repository\ThoughtsAlignedThoughtsAligned.Repository.csproj" />
+    <ProjectReference Include="..\ThoughtsAlignedThoughtsAligned.Utility\ThoughtsAlignedThoughtsAligned.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

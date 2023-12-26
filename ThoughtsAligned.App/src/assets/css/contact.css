@@ -1,0 +1,150 @@
+header,
+footer {
+    background: white;
+}
+
+#contact {
+    min-height: 100vh;
+    padding: 100px 0 100px 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact .container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    gap: 40px
+}
+
+#contact h1 {
+    font-size: 3em;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.contactDetail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.contactDetail h3 {
+    font-size: 1.6em;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.contactDetail .left {
+    width: 100%;
+}
+
+.contactDetail .left h4 {
+    font-size: 1.1em;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.667;
+}
+
+.contactDetail .left h5 {
+    font-size: 1.1em;
+    font-family: "GraphikLight";
+    color: rgb(0, 0, 0);
+    line-height: 1.667;
+}
+
+.contactDetail .left .detail {
+    margin-bottom: 30px;
+}
+
+.contactDetail .right {
+    width: 100%;
+}
+
+.contactDetail .right form ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactDetail .right form ul li .formField {
+    position: relative;
+}
+
+.contactDetail .right form ul li .formField .customField {
+    position: relative;
+}
+
+.contactDetail .right form ul li .formField .customField label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+
+    font-size: 1.1em;
+    font-family: "GraphikLight";
+    color: rgb(0, 0, 0);
+    line-height: 1.429;
+}
+
+.contactDetail .right form ul li .formField .customField label span {
+    color: #F68E8E;
+}
+
+.contactDetail .right form ul li .formField .customField input {
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #cccccc;
+    min-height: 50px;
+}
+
+.contactDetail .right form ul li .error {
+    display: none;
+    color: #F68E8E;
+    font-size: .8em;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 28px;
+    margin-top: 5px;
+}
+
+.contactDetail .right form ul .button {
+    background: #ffa735;
+    border: 0px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.2em;
+    font-family: "GraphikLight";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.111;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px) {
+    #contact h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .contactDetail {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #contact h1 {
+        font-size: 1.5em;
+    }
+}

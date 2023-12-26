@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ThoughtsAligned.API/bin
+/ThoughtsAligned.API/obj
+/ThoughtsAligned.App/.angular/cache/15.2.4
+/ThoughtsAligned.Context/bin
+/ThoughtsAligned.Context/obj
+/ThoughtsAligned.IService/bin
+/ThoughtsAligned.IService/obj
+/ThoughtsAligned.Models/bin
+/ThoughtsAligned.Models/obj
+/ThoughtsAligned.Repository/bin
+/ThoughtsAligned.Repository/obj
+/ThoughtsAligned.Service/bin
+/ThoughtsAligned.Service/obj
+/ThoughtsAligned.Utility/bin
+/ThoughtsAligned.Utility/obj

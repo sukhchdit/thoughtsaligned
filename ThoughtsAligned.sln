@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{2290236C-7568-494B-9184-13EC2F4B5FAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtsAligned.Context", "ThoughtsAligned.Context\ThoughtsAligned.Context.csproj", "{08CEA607-E43F-4953-BEBC-E1D349318D51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtsAligned.Repository", "ThoughtsAligned.Repository\ThoughtsAligned.Repository.csproj", "{16E5ADB1-C010-4948-A8A6-E5D8CB78AEA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D2C8C05D-348A-4914-BB88-1BCE00868713}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtsAligned.Service", "ThoughtsAligned.Service\ThoughtsAligned.Service.csproj", "{29BDEF01-FFE7-428D-8BA3-23ECA12A81A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtsAligned.IService", "ThoughtsAligned.IService\ThoughtsAligned.IService.csproj", "{F0A6AB08-3D77-4E92-A569-1CF2442F03E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{EF49B1CE-204C-4107-9EA9-49824F1030A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtsAligned.Utility", "ThoughtsAligned.Utility\ThoughtsAligned.Utility.csproj", "{97957D2C-34CD-4A95-874D-B0E6C43FD4F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{B5918895-CC4A-4926-B5DF-04CCAB03F328}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtsAligned.API", "ThoughtsAligned.API\ThoughtsAligned.API.csproj", "{554B4BCF-A6D8-4BBA-91DE-12B513CE2163}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{8448B71E-82A9-478D-A5F0-CAD02BDA2F57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtsAligned.Models", "ThoughtsAligned.Models\ThoughtsAligned.Models.csproj", "{75FC3F10-DC9C-41A2-B816-55CF570A9B65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{0066186A-B962-4232-8020-B0CE9E4C052C}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ThoughtsAligned.App", "ThoughtsAligned.App\", "{0BBE277E-0847-4086-911E-662A67C5A230}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51421"
+		Debug.AspNetCompiler.PhysicalPath = "ThoughtsAligned.App\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51421\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51421"
+		Release.AspNetCompiler.PhysicalPath = "ThoughtsAligned.App\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51421\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51421"
+		SlnRelativePath = "ThoughtsAligned.App\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08CEA607-E43F-4953-BEBC-E1D349318D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CEA607-E43F-4953-BEBC-E1D349318D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CEA607-E43F-4953-BEBC-E1D349318D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CEA607-E43F-4953-BEBC-E1D349318D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E5ADB1-C010-4948-A8A6-E5D8CB78AEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E5ADB1-C010-4948-A8A6-E5D8CB78AEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E5ADB1-C010-4948-A8A6-E5D8CB78AEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E5ADB1-C010-4948-A8A6-E5D8CB78AEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BDEF01-FFE7-428D-8BA3-23ECA12A81A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BDEF01-FFE7-428D-8BA3-23ECA12A81A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BDEF01-FFE7-428D-8BA3-23ECA12A81A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BDEF01-FFE7-428D-8BA3-23ECA12A81A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A6AB08-3D77-4E92-A569-1CF2442F03E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A6AB08-3D77-4E92-A569-1CF2442F03E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A6AB08-3D77-4E92-A569-1CF2442F03E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A6AB08-3D77-4E92-A569-1CF2442F03E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97957D2C-34CD-4A95-874D-B0E6C43FD4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97957D2C-34CD-4A95-874D-B0E6C43FD4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97957D2C-34CD-4A95-874D-B0E6C43FD4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97957D2C-34CD-4A95-874D-B0E6C43FD4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554B4BCF-A6D8-4BBA-91DE-12B513CE2163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554B4BCF-A6D8-4BBA-91DE-12B513CE2163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554B4BCF-A6D8-4BBA-91DE-12B513CE2163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554B4BCF-A6D8-4BBA-91DE-12B513CE2163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FC3F10-DC9C-41A2-B816-55CF570A9B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FC3F10-DC9C-41A2-B816-55CF570A9B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FC3F10-DC9C-41A2-B816-55CF570A9B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FC3F10-DC9C-41A2-B816-55CF570A9B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBE277E-0847-4086-911E-662A67C5A230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBE277E-0847-4086-911E-662A67C5A230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBE277E-0847-4086-911E-662A67C5A230}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBE277E-0847-4086-911E-662A67C5A230}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08CEA607-E43F-4953-BEBC-E1D349318D51} = {2290236C-7568-494B-9184-13EC2F4B5FAE}
+		{16E5ADB1-C010-4948-A8A6-E5D8CB78AEA8} = {2290236C-7568-494B-9184-13EC2F4B5FAE}
+		{29BDEF01-FFE7-428D-8BA3-23ECA12A81A2} = {D2C8C05D-348A-4914-BB88-1BCE00868713}
+		{F0A6AB08-3D77-4E92-A569-1CF2442F03E5} = {D2C8C05D-348A-4914-BB88-1BCE00868713}
+		{97957D2C-34CD-4A95-874D-B0E6C43FD4F4} = {EF49B1CE-204C-4107-9EA9-49824F1030A1}
+		{554B4BCF-A6D8-4BBA-91DE-12B513CE2163} = {B5918895-CC4A-4926-B5DF-04CCAB03F328}
+		{75FC3F10-DC9C-41A2-B816-55CF570A9B65} = {8448B71E-82A9-478D-A5F0-CAD02BDA2F57}
+		{0BBE277E-0847-4086-911E-662A67C5A230} = {0066186A-B962-4232-8020-B0CE9E4C052C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF1AF959-3711-4A02-BDC1-9972014A41A2}
+	EndGlobalSection
+EndGlobal

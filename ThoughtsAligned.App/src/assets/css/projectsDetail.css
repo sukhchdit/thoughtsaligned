@@ -1,0 +1,225 @@
+header,
+footer {
+    background: white;
+}
+
+#projectDetail {
+    min-height: 100vh;
+    padding: 100px 0 100px 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#projectDetail .container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+#projectDetail .heading {
+    text-align: center;
+}
+
+#projectDetail h1 {
+    font-size: 3em;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+#projectDetail h4 {
+    font-size: 1em;
+    font-family: "GraphikMedium";
+    color: rgba(0, 0, 0, 0.302);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#projectDetail .container.short {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#projectDetail .container.short .image {
+    min-height: auto;
+}
+
+#projectDetail .container.short .image img {
+    width: 100%;
+}
+
+#projectDetail .container.short .detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#projectDetail .container.short .detail h2 {
+    font-size: 2.2em;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+#projectDetail .container.short .detail .bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#projectDetail .container.short .detail .bottom .left {
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+}
+
+#projectDetail .container.short .detail .bottom .left h4 {
+    font-size: 1.1em;
+    font-family: "GraphikSemibold";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+
+#projectDetail .container.short .detail .bottom p {
+    font-size: 1.1em;
+    font-family: "GraphikRegular";
+    color: rgb(0, 0, 0);
+    line-height: 1.7;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+
+#projectDetail .container.short .detail2 .bottom ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 18px;
+}
+
+#projectDetail .container.short .detail2 .bottom ul li {
+    font-size: 1.1em;
+    font-family: "GraphikRegular";
+    color: rgb(0, 0, 0);
+    line-height: 1.7;
+    text-transform: none;
+}
+
+#projectDetail .container.short .detail .bottom p strong {
+    font-family: "GraphikSemibold";
+}
+
+#projectDetail .container.short .detail .bottom>.right {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#projectDetail .container.short .detail .bottom .right ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 45px;
+}
+
+#projectDetail .container.short .detail .bottom .right ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+#projectDetail .container.short .detail .bottom .right ul>li:after {
+    content: '';
+    position: absolute;
+    background: #e5e5e5;
+    width: 100%;
+    height: 1px;
+    bottom: -20px;
+    left: 0;
+}
+
+#projectDetail .container.short .detail .bottom .right ul li h4 {
+    font-size: 1.1em;
+    font-family: "GraphikSemibold";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+
+#projectDetail .container.short .detail .bottom .right ul li h6 {
+    font-size: 19.287px;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.667;
+}
+
+#projectDetail .container.short .detail .bottom .right ul li ol {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+#projectDetail .container.short .detail .bottom .right ul li ol svg {
+    height: 20px;
+}
+
+#projectDetail .container.short .detail .bottom .right ul li ol svg path {
+    fill: #000000;
+}
+
+#projectDetail .container.short .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#projectDetail .container.short .grid img {
+    width: 100%;
+}
+
+#projectDetail .container.short .detail .bottom .right ul li .left,
+#projectDetail .container.short .detail .bottom .right ul li .right {
+    width: 50%;
+}
+
+.image.full img {
+    width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    #projectDetail .container.short .detail .bottom {
+        flex-direction: column;
+    }
+
+    #projectDetail .container.short .detail .bottom .left,
+    #projectDetail .container.short .detail .bottom .right {
+        width: 100%;
+    }
+
+    #projectDetail h1 {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #projectDetail .container.short .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:500px) {
+    #projectDetail .container.short .detail .bottom .right ul li {
+        flex-direction: column;
+        gap: 35px;
+    }
+}

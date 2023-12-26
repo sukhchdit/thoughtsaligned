@@ -1,0 +1,123 @@
+<div class="menu">
+    <svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" (click)="isOpenNavBar=true">
+        <g id="Page-1" sketch:type="MSPage">
+            <g id="Icon-Set-Filled" transform="translate(-212.000000, -888.000000)"
+                sketch:type="MSLayerGroup">
+                <path id="hamburger" sketch:type="MSShapeGroup" class="st0" d="M239,912h-24c-1.7,0-3,1.3-3,3s1.3,3,3,3h24c1.7,0,3-1.3,3-3
+                S240.7,912,239,912L239,912z M239,900h-24c-1.7,0-3,1.3-3,3s1.3,3,3,3h24c1.7,0,3-1.3,3-3S240.7,900,239,900L239,900z M215,894h24
+                c1.7,0,3-1.3,3-3s-1.3-3-3-3h-24c-1.7,0-3,1.3-3,3S213.3,894,215,894L215,894z" />
+            </g>
+        </g>
+    </svg>
+
+</div>
+
+<nav [ngClass]="{'activeNav': isOpenNavBar}">
+    <span class="closeNav" (click)="isOpenNavBar=false">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_9901_55417)">
+                <path
+                    d="M16.7752 5.23432C16.4177 4.87682 15.8402 4.87682 15.4827 5.23432L11.0002 9.70766L6.51766 5.22516C6.16016 4.86766 5.58266 4.86766 5.22516 5.22516C4.86766 5.58266 4.86766 6.16016 5.22516 6.51766L9.70766 11.0002L5.22516 15.4827C4.86766 15.8402 4.86766 16.4177 5.22516 16.7752C5.58266 17.1327 6.16016 17.1327 6.51766 16.7752L11.0002 12.2927L15.4827 16.7752C15.8402 17.1327 16.4177 17.1327 16.7752 16.7752C17.1327 16.4177 17.1327 15.8402 16.7752 15.4827L12.2927 11.0002L16.7752 6.51766C17.1235 6.16932 17.1235 5.58266 16.7752 5.23432Z" />
+            </g>
+            <defs>
+                <clipPath id="clip0_9901_55417">
+                    <rect width="22" height="22" />
+                </clipPath>
+            </defs>
+        </svg>
+    </span>
+
+    <div class="navInner">
+        <div class="top">
+            <ul>
+                <li>Call Us: <a href="#">+91 12345-67890</a></li>
+                <li>Email Us: <a href="#">info@thougtsaligned.com</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <ul>
+                <ul>
+                    <li><a routerLink="/home" routerLinkActive="active" (click)="isOpenNavBar=false">Home</a></li>
+                    <li><a routerLink="/project" routerLinkActive="active" (click)="isOpenNavBar=false">Projects</a></li>
+                    <li><a routerLink="/projects-detail" routerLinkActive="active" (click)="isOpenNavBar=false">Projects detail</a></li>
+                    <li><a routerLink="/contact" routerLinkActive="active" (click)="isOpenNavBar=false">Contact</a></li>
+                  </ul>
+            </ul>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li>
+                    <a href="#">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
+                            style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                            <g id="Page-1">
+                                <g id="Dribbble-Light-Preview"
+                                    transform="translate(-385.000000, -7399.000000)">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                        <path id="facebook-_x5B__x23_176_x5D_" class="st0"
+                                            d="M343.8,7264v-11.2h3.4l0.6-5h-4v-2.4c0-1.3,0-2.6,1.8-2.6h1.8v-3.6 c0-0.1-1.6-0.2-3.1-0.2c-3.3, 0-5.4, 2.1-5.4, 5.9v2.9h-3.7v5h3.7v11.2H343.8z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
+                            style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                            <g id="Page-1">
+                                <g id="Dribbble-Light-Preview"
+                                    transform="translate(-60.000000, -7521.000000)">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                        <path id="twitter-_x5B__x23_154_x5D_" class="st0"
+                                            d="M11.9,7383.5c9.4,0,14.6-7.7,14.6-14.4c0-0.2,0-0.4,0-0.7 c1-0.7, 1.9-1.6, 2.6-2.6c-0.9, 0.4-1.9, 0.7-2.9, 0.8c1.1-0.6, 1.9-1.6, 2.3-2.8c-1, 0.6-2.1, 1-3.3, 1.2c-1.9-2-5.2-2.1-7.3-0.2 c-1.3, 1.2-1.9, 3.1-1.5, 4.8c-4.1-0.2-8-2.1-10.6-5.3c-1.4, 2.3-0.7, 5.3, 1.6, 6.7c-0.8, 0-1.6-0.2-2.3-0.6v0.1c0, 2.4, 1.7, 4.5, 4.1, 4.9 c-0.8, 0.2-1.5, 0.2-2.3, 0.1c0.7, 2.1, 2.6, 3.5, 4.8, 3.5c-1.8, 1.4-4.1, 2.2-6.4, 2.2c-0.4, 0-0.8, 0-1.2-0.1 C6.3, 7382.7, 9.1, 7383.5, 11.9, 7383.5" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
+                            style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                            <g id="Page-1">
+                                <g id="Dribbble-Light-Preview"
+                                    transform="translate(-180.000000, -7479.000000)">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                        <path id="linkedin-_x5B__x23_161_x5D_" class="st0"
+                                            d="M149,7344h-5v-8.7c0-2.4-1.1-3.7-3-3.7c-2.1,0-3.3,1.4-3.3,3.7v8.7h-5 v-16.2h5v1.8c0, 0, 1.6-2.8, 5.1-2.8c3.5, 0, 6.1, 2.2, 6.1, 6.6V7344L149, 7344z M127.1, 7325.2c-1.7, 0-3.1-1.4-3.1-3.1 c0-1.7, 1.4-3.1, 3.1-3.1c1.7, 0, 3.1, 1.4, 3.1, 3.1C130.1, 7323.8, 128.7, 7325.2, 127.1, 7325.2L127.1, 7325.2z M124, 7344h6.2v-16.2H124 V7344z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25"
+                            style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                            <path class="st0"
+                                d="M12.5,0C9.1,0,8.7,0,7.3,0.1C6,0.1,5.1,0.3,4.3,0.7C3.5,1,2.8,1.4,2.1,2.1C1.4,2.8,1,3.5,0.7,4.3 C0.3, 5.1, 0.1, 6, 0.1, 7.3C0, 8.7, 0, 9.1, 0, 12.5c0, 3.4, 0, 3.8, 0.1, 5.2c0.1, 1.3, 0.3, 2.2, 0.6, 3c0.3, 0.8, 0.7, 1.5, 1.4, 2.2 c0.7, 0.7, 1.4, 1.1, 2.2, 1.4c0.8, 0.3, 1.7, 0.5, 3, 0.6C8.7, 25, 9.1, 25, 12.5, 25c3.4, 0, 3.8, 0, 5.2-0.1c1.3-0.1, 2.2-0.3, 3-0.6 c0.8-0.3, 1.5-0.7, 2.2-1.4c0.7-0.7, 1.1-1.4, 1.4-2.2c0.3-0.8, 0.5-1.7, 0.6-3c0.1-1.3, 0.1-1.8, 0.1-5.2c0-3.4, 0-3.8-0.1-5.2 c-0.1-1.3-0.3-2.2-0.6-3c-0.3-0.8-0.7-1.5-1.4-2.2c-0.7-0.7-1.4-1.1-2.2-1.4c-0.8-0.3-1.7-0.5-3-0.6C16.3, 0, 15.9, 0, 12.5, 0z M12.5, 2.3c3.3, 0, 3.7, 0, 5.1, 0.1c1.2, 0.1, 1.9, 0.3, 2.3, 0.4c0.6, 0.2, 1, 0.5, 1.4, 0.9c0.4, 0.4, 0.7, 0.9, 0.9, 1.4c0.2, 0.4, 0.4, 1.1, 0.4, 2.3 c0.1, 1.3, 0.1, 1.7, 0.1, 5.1c0, 3.3, 0, 3.7-0.1, 5.1c-0.1, 1.2-0.3, 1.9-0.4, 2.3c-0.2, 0.6-0.5, 1-0.9, 1.4c-0.4, 0.4-0.9, 0.7-1.4, 0.9 c-0.4, 0.2-1.1, 0.4-2.3, 0.4c-1.3, 0.1-1.7, 0.1-5.1, 0.1c-3.3, 0-3.7, 0-5.1-0.1c-1.2-0.1-1.9-0.3-2.3-0.4c-0.6-0.2-1-0.5-1.4-0.9 c-0.4-0.4-0.7-0.9-0.9-1.4c-0.2-0.4-0.4-1.1-0.4-2.3c-0.1-1.3-0.1-1.7-0.1-5.1c0-3.3, 0-3.7, 0.1-5.1c0.1-1.2, 0.3-1.9, 0.4-2.3 c0.2-0.6, 0.5-1, 0.9-1.4C4.1, 3.3, 4.5, 3, 5.1, 2.8c0.4-0.2, 1.1-0.4, 2.3-0.4C8.8, 2.3, 9.2, 2.3, 12.5, 2.3z M12.5, 16.7 c-2.3, 0-4.2-1.9-4.2-4.2c0-2.3, 1.9-4.2, 4.2-4.2c2.3, 0, 4.2, 1.9, 4.2, 4.2C16.7, 14.8, 14.8, 16.7, 12.5, 16.7z M12.5, 6.1 C9, 6.1, 6.1, 9, 6.1, 12.5c0, 3.5, 2.9, 6.4, 6.4, 6.4s6.4-2.9, 6.4-6.4C18.9, 9, 16, 6.1, 12.5, 6.1z M19.2, 7.3c0.8, 0, 1.5-0.7, 1.5-1.5 S20, 4.3, 19.2, 4.3c-0.8, 0-1.5, 0.7-1.5, 1.5S18.3, 7.3, 19.2, 7.3z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="footerDetails">
+                <div class="left">© ThougTs AligneD 2023.</div>
+                <div class="right">Designed By: SLR Technologies</div>
+            </div>
+        </div>
+    </div>
+</nav>
