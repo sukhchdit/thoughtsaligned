@@ -1,0 +1,493 @@
+/*--Home--*/
+#home {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+#home .details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#home .details h5 {
+    font-family: 'GraphikThin';
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+#home .details h4 {
+    font-family: 'GraphikThin';
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+#home .details h1 {
+    font-size: 4.8em;
+    font-family: "GraphikThin";
+    color: #fff;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+#home .details h1 span {
+    color: #ffa735;
+}
+
+
+/*--Our Specialization--*/
+#ourSpecialization {
+    min-height: 100vh;
+    background: url(../images/specializationBg.png) no-repeat;
+    background-position: right bottom;
+    background-size: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ourSpecialization .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 80%;
+}
+
+#ourSpecialization .container .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+
+#ourSpecialization .container .top h5 {
+    font-size: 1.4em;
+    font-family: "GraphikMedium";
+    color: rgba(0, 0, 0, 0.302);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#ourSpecialization .container .top h3 {
+    font-size: 2.7em;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+#ourSpecialization .container .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ourSpecialization .container .bottom .left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#ourSpecialization .container .bottom .left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#ourSpecialization .container .bottom .left ul li {
+    font-size: 1.5em;
+    font-family: "GraphikLight";
+    color: rgb(0, 0, 0);
+    line-height: 2;
+}
+
+#ourSpecialization .container .bottom .right {
+    width: 55%;
+    position: relative;
+}
+
+#ourSpecialization .container .bottom .right:before {
+    width: 127px;
+    height: 2px;
+    position: absolute;
+    left: -45px;
+    top: -25px;
+    background: #ffa735;
+    content: '';
+}
+
+#ourSpecialization .container .bottom .right:after {
+    width: 2px;
+    height: 127px;
+    position: absolute;
+    left: -25px;
+    top: -45px;
+    background: #ffa735;
+    content: '';
+}
+
+#ourSpecialization .container .bottom .right img {
+    width: 100%;
+}
+
+/*--Projects--*/
+#projects {
+    min-height: 100vh;
+    background: url(../images/projectsBg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+#projects .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 95%;
+}
+
+#projects .container .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+}
+
+#projects .container .top h5 {
+    font-size: 1.4em;
+    font-family: "GraphikMedium";
+    color: rgba(255, 255, 255, 0.302);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#projects .container .top h3 {
+    font-size: 2.7em;
+    font-family: "GraphikThin";
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+#projects .container .bottom {
+    width: 80%;
+}
+
+#projects .container .bottom ul {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#projects .container .bottom .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#projects .container .bottom .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#projects .container .bottom .left,
+#projects .container .bottom .center,
+#projects .container .bottom .right {
+    width: 100%;
+}
+
+#projects .container .bottom li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#projects .container .bottom li:hover .details {
+    visibility: visible;
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+#projects .container .bottom li .details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    transition: all .5s ease;
+    color: #ffffff;
+    gap: 5px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#projects .container .bottom li a h4 {
+    font-size: 1.1em;
+    font-family: "GraphikMedium";
+    color: rgb(237, 237, 237);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#projects .container .bottom li a p {
+    font-size: .9em;
+    font-family: "GraphikLight";
+    color: rgb(237, 237, 237);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#projects .container .bottom .right li:last-child {
+    justify-content: flex-end;
+}
+
+#projects .container .bottom li:last-child a {
+    font-size: 1em;
+    font-family: "Graphik";
+    color: rgb(237, 237, 237);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#projects .container .bottom .left li,
+#projects .container .bottom .center li,
+#projects .container .bottom .right li {
+    width: 100%;
+}
+
+#projects .container .bottom .left li img,
+#projects .container .bottom .center li img,
+#projects .container .bottom .right li img {
+    width: 100%;
+}
+
+/*--Our Team--*/
+#ourTeam {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+#ourTeam .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 80%;
+}
+
+#ourTeam .container .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+}
+
+#ourTeam .container .top h5 {
+    font-size: 1.4em;
+    font-family: "GraphikMedium";
+    color: rgba(0, 0, 0, 0.302);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#ourTeam .container .top h3 {
+    font-size: 2.7em;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+#ourTeam .container .bottom {
+    display: grid;
+    gap: 30px;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#ourTeam .container .bottom .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#ourTeam .container .bottom .item .imageBlock {
+    width: 100%;
+}
+
+#ourTeam .container .bottom .item .imageBlock img {
+    width: 100%;
+    border-radius: 50% 50% 0px 0px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+#ourTeam .container .bottom .item .teamDetail {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ourTeam .container .bottom .item .teamDetail .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#ourTeam .container .bottom .item .teamDetail .left h3 {
+    font-size: 1.8em;
+    font-family: "GraphikThin";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+#ourTeam .container .bottom .item .teamDetail .left h5 {
+    font-size: 1.1em;
+    font-family: "GraphikLight";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+#ourTeam .container .bottom .item .teamDetail .right {
+    font-size: 1.1em;
+    font-family: "GraphikLight";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    display: flex;
+    flex-direction: row;
+}
+
+#ourTeam .container .bottom .item .teamDetail .right ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#ourTeam .container .bottom .item .teamDetail .right ul li svg {
+    height: 18px;
+}
+
+#ourTeam .container .bottom .item:hover .imageBlock img {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+
+/*--Our Specialization--*/
+#testimonials {
+    min-height: 100vh;
+    background: url(../images/testimonials.jpg) no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonials .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    width: 80%
+}
+
+#testimonials .container svg path {
+    fill: #ffffff;
+}
+
+#testimonials .container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    min-height: 400px;
+    width: 50%;
+}
+
+#testimonials .container .left .icon svg {
+    width: 100px;
+}
+
+#testimonials .container .left .head {
+    font-size: 1.8em;
+    font-family: "GraphikLight";
+    line-height: 1.2;
+}
+
+#testimonials .container .right {
+    width: 45%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#testimonials .container .right .review-carousel-item {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#testimonials .container .right .review-carousel-item .text p {
+    font-size: 1.2em;
+    font-family: "GraphikLight";
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+#testimonials .container .right .review-carousel-item .review-author .author-name {
+    font-size: 1.5em;
+    font-family: "GraphikMedium";
+    line-height: 1.2;
+}
+
+#testimonials .container .right .review-carousel-item .review-author i {
+    font-size: 1.1em;
+    font-family: "GraphikRegularItalic";
+    line-height: 1.2;
+}
