@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThoughtsAligned", "ThoughtsAligned\ThoughtsAligned.csproj", "{AC80A9D1-EB8F-4FDE-ABCA-711839661BF3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThoughtsAligned.API", "ThoughtsAligned.API", "{0BB83BAD-3291-4247-809A-6FE0F3E9B354}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{0BB83BAD-3291-4247-809A-6FE0F3E9B354}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{9F2491DC-DFC7-41B8-B7DA-570C97861BC7}"
 EndProject
@@ -30,6 +30,14 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ThoughtsAligned.App", "Thou
 		SlnRelativePath = "ThoughtsAligned.App\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{DCFE9B07-7299-410B-8C48-5898340313AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThoughtsAligned.Service", "ThoughtsAligned.Service\ThoughtsAligned.Service.csproj", "{24EB5B7F-3E0D-4092-9B21-D5CB23EA3DDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{B579FD8F-D1C0-418E-B491-6383729AE422}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{A890F83B-A419-4039-B62E-6C5B5A492764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +52,10 @@ Global
 		{E5EBD90A-537C-424C-8B2B-C5E7E6EB6317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5EBD90A-537C-424C-8B2B-C5E7E6EB6317}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5EBD90A-537C-424C-8B2B-C5E7E6EB6317}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{24EB5B7F-3E0D-4092-9B21-D5CB23EA3DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EB5B7F-3E0D-4092-9B21-D5CB23EA3DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EB5B7F-3E0D-4092-9B21-D5CB23EA3DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EB5B7F-3E0D-4092-9B21-D5CB23EA3DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +63,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AC80A9D1-EB8F-4FDE-ABCA-711839661BF3} = {0BB83BAD-3291-4247-809A-6FE0F3E9B354}
 		{E5EBD90A-537C-424C-8B2B-C5E7E6EB6317} = {9F2491DC-DFC7-41B8-B7DA-570C97861BC7}
+		{24EB5B7F-3E0D-4092-9B21-D5CB23EA3DDA} = {DCFE9B07-7299-410B-8C48-5898340313AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F441CC8C-0E98-436C-95DF-A5B7A61FB743}

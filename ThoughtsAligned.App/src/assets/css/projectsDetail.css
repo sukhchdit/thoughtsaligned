@@ -195,3 +195,31 @@ footer {
 .image.full img {
     width: 100%;
 }
+
+@media screen and (max-width:1024px) {
+    #projectDetail .container.short .detail .bottom {
+        flex-direction: column;
+    }
+
+    #projectDetail .container.short .detail .bottom .left,
+    #projectDetail .container.short .detail .bottom .right {
+        width: 100%;
+    }
+
+    #projectDetail h1 {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #projectDetail .container.short .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:500px) {
+    #projectDetail .container.short .detail .bottom .right ul li {
+        flex-direction: column;
+        gap: 35px;
+    }
+}

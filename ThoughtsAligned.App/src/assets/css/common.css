@@ -302,3 +302,14 @@ footer .container {
 #footer .container .bottom .item ul li strong {
     text-transform: uppercase;
 }
+
+.noScroll {
+    overflow: hidden;
+}
+
+@media screen and (max-width:767px) {
+
+    header .container .callSocial {
+        display: none;
+    }
+}

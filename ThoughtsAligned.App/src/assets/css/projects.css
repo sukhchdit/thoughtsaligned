@@ -109,3 +109,26 @@ footer {
     text-transform: uppercase;
     line-height: 1.5;
 }
+
+@media screen and (max-width:767px) {
+    #projectList h1 {
+        font-size: 2em;
+    }
+
+    #projectList .galleryGrid .filtersContent ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #projectList h1 br {
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #projectList .galleryGrid .filtersContent ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

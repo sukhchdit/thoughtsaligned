@@ -129,3 +129,22 @@ footer {
     line-height: 1.111;
     cursor: pointer;
 }
+
+@media screen and (max-width:1024px) {
+    #contact h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .contactDetail {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #contact h1 {
+        font-size: 1.5em;
+    }
+}

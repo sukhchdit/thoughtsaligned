@@ -491,3 +491,103 @@
     font-family: "GraphikRegularItalic";
     line-height: 1.2;
 }
+
+@media screen and (max-width:812px) {
+    #home .details h1 {
+        font-size: 3.5em;
+    }
+
+    #ourSpecialization .container .top h3,
+    #projects .container .top h3,
+    #ourTeam .container .top h3,
+    #footer .container .top h3 {
+        font-size: 2em;
+    }
+
+    #ourTeam .container .top h3 br {
+        display: none;
+    }
+
+    #ourSpecialization .container .bottom,
+    #testimonials .container,
+    #footer .container .bottom {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #ourSpecialization .container .bottom .left,
+    #ourSpecialization .container .bottom .right,
+    #testimonials .container .left,
+    #testimonials .container .right {
+        width: 100%;
+    }
+
+    #testimonials .container .left {
+        min-height: auto;
+    }
+
+    #ourSpecialization,
+    #testimonials {
+        padding: 100px 0px;
+    }
+
+    #projects .container .bottom ul,
+    #ourTeam .container .bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+header.darkHeader,
+footer.darkFooter {
+    background: #ffffff;
+}
+
+header.header-white.darkHeader .container .callSocial ul {
+    color: #000000;
+}
+
+header.header-white.darkHeader .container .callSocial ul a {
+    color: #000000;
+}
+
+header.header-white.darkHeader .container svg path,
+header.header-white.darkHeader .container svg rect,
+header.header-white.darkHeader .container svg polygon {
+    fill: #000000;
+}
+
+footer.darkFooter .container {
+    color: #000000;
+}
+
+@media screen and (max-width:600px) {
+
+    header .container .callSocial,
+    #ourSpecialization .container .top h3 br,
+    #testimonials .container .left .head br {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #home .details h1 {
+        font-size: 2.5em;
+    }
+
+    #home .details h1 br {
+        display: none;
+    }
+
+    #home .details {
+        width: 90%;
+    }
+
+    #ourSpecialization .container {
+        width: 90%;
+    }
+
+    #ourSpecialization .container .bottom .right {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
